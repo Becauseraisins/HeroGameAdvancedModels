@@ -8,8 +8,9 @@ namespace HeroGameAdvancedTests
         Dice OneDamage;
         Hero Hero1;
         Villain Villain1;
+
         public HeroTests(){
-            this.OneDamage = new Dice(1,1);
+        this.OneDamage = new Dice(1,1);
         this.Hero1 = new Hero(1, "H1", OneDamage, 100);
         this.Villain1 = new Villain(1, "v1", 10);
         }
@@ -18,6 +19,7 @@ namespace HeroGameAdvancedTests
         [InlineData(101, -1, 0)]
         [InlineData(102,-1,0)]
         [InlineData(0,100,10)]
+        [InlineData(1000,-1,0)]
         public void AttackTest(int attacks, int expectedUses, int expectedHitPoints)
         {   
  
