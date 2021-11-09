@@ -15,17 +15,16 @@ namespace HeroGameAdvancedTests
         this.Villain1 = new Villain(1, "v1", 10);
         }
         [Theory]
-        [InlineData(1, 99, 9)]
-        [InlineData(101, -1, 0)]
-        [InlineData(102,-1,0)]
-        [InlineData(0,100,10)]
-        [InlineData(1000,-1,0)]
-        public void AttackTest(int attacks, int expectedUses, int expectedHitPoints)
+        [InlineData(1, 99,1)]
+        [InlineData(101, 100,-1)]
+        [InlineData(10,90,10)]
+        [InlineData(0,100,0)]
+        [InlineData(1000,100,-1)]
+        public void AttackTest(int attacks, int expectedUses, int expectedDamage)
         {   
- 
-            Villain1.Damage(Hero1.Attack(attacks));
-            Assert.Equal(expectedHitPoints,Villain1.Hitpoints);
+            int Damage = Hero1.Attack(attacks);
             Assert.Equal(expectedUses,Hero1.Uses);
+            Assert.Equal(Damage, expectedDamage);
         }
     }
 }
