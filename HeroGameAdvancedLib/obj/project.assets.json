@@ -8,23 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/anguyen/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\matth\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/anguyen/Projects/HeroGameAdvancedModels/HeroGameAdvancedLib/HeroGameAdvancedLib.csproj",
+      "projectUniqueName": "C:\\Users\\matth\\Class_work\\SLProg\\HeroGameAdvancedModels\\HeroGameAdvancedLib\\HeroGameAdvancedLib.csproj",
       "projectName": "HeroGameAdvancedLib",
-      "projectPath": "/Users/anguyen/Projects/HeroGameAdvancedModels/HeroGameAdvancedLib/HeroGameAdvancedLib.csproj",
-      "packagesPath": "/Users/anguyen/.nuget/packages/",
-      "outputPath": "/Users/anguyen/Projects/HeroGameAdvancedModels/HeroGameAdvancedLib/obj/",
+      "projectPath": "C:\\Users\\matth\\Class_work\\SLProg\\HeroGameAdvancedModels\\HeroGameAdvancedLib\\HeroGameAdvancedLib.csproj",
+      "packagesPath": "C:\\Users\\matth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matth\\Class_work\\SLProg\\HeroGameAdvancedModels\\HeroGameAdvancedLib\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/anguyen/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\matth\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -62,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

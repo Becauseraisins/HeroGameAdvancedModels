@@ -1,9 +1,8 @@
 using System;
 using Xunit;
 using HeroGameAdvancedLib;
-
 namespace HeroGameAdvancedTests
-{
+{        
     public class VillainTests
     {
         [Fact]
@@ -12,4 +11,5 @@ namespace HeroGameAdvancedTests
 
         }
     }
+
 }
