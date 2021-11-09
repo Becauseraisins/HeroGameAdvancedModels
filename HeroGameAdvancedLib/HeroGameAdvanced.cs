@@ -41,6 +41,9 @@ namespace HeroGameAdvancedLib {
         // applies amount of damage to Hitpoints.
         // if damage is greater that Hitpoints, Hitpoints should be set to 0 (zero)
         public void Damage(int amount) {
+            if ( amount < 0){
+                return;
+            }
             this.Hitpoints -= amount;
             if (this.Hitpoints < 0)
                 this.Hitpoints = 0; 
